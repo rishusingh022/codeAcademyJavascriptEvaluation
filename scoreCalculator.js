@@ -1,4 +1,3 @@
-
 function scoreGame(arr){
     let score = 0;
     const len = arr.length;
@@ -28,8 +27,6 @@ const testCase1 = [3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6];
 const testCase2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10];
 const testCase3 = [6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const rollArr = [testCase1,testCase2,testCase3];
-// console.log(scoreGame(rollArr[0]));
-// con
 console.log(scoreGame(testCase1));
 console.log(scoreGame(testCase2));
 console.log(scoreGame(testCase3));

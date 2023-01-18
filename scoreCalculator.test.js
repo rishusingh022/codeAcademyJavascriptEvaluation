@@ -9,12 +9,12 @@ describe('gameWinner',() => {
         it('testCase2',() => {
             const arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10]
             const result = scoreGame(arr);
-            expect(result).toEqual(90);
+            expect(result).toEqual(30);
         });
         it('testCase3',() => {
             const arr = [6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
             const result = scoreGame(arr);
-            expect(result).toEqual(90);
+            expect(result).toEqual(16);
         });
     });
     
